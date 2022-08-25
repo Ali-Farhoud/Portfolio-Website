@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="./styles/styles.css" />
+		<link id="theme-style" rel="stylesheet" href="./styles/styles.css" />
+		<title>Ali Farhoud</title>
+	</head>
+	<body>
+		<section class="s1" id="top">
+			<div class="main-container">
+				<div class="greeting-wrapper">
+					<h1 id="greeting"></h1>
+				</div>
+				<div class="intro-wrapper">
+					<div class="nav-wrapper">
+						<div class="dots-wrapper">
+							<div class="browser-dot" id="dot-1"></div>
+							<div class="browser-dot" id="dot-2"></div>
+							<div class="browser-dot" id="dot-3"></div>
+						</div>
+						<ul id="navigation">
+							<li><a href="#projects" id="nav-projects">Projects</a></li>
+							<li><a id="contact-me" href="#">Contact</a></li>
+						</ul>
+					</div>
+					<div class="columnsWrapper">
+						<div class="left-column">
+							<img
+								id="profile-pic"
+								src="images/mypicture.jpeg"
+								alt="a picture of me"
+							/>
+							<h5 style="text-align: center">Personalize Theme</h5>
+							<div id="theme-options-wrapper">
+								<div data-mode="light" class="theme-dot" id="light-mode"></div>
+								<div data-mode="blue" class="theme-dot" id="blue-mode"></div>
+								<div data-mode="green" class="theme-dot" id="green-mode"></div>
+								<div
+									data-mode="purple"
+									class="theme-dot"
+									id="purple-mode"
+								></div>
+							</div>
+							<p id="settings-note">
+								*Theme settings will be saved for <br />your next visit
+							</p>
+						</div>
+						<div class="right-column">
+							<div id="preview">
+								<div class="corner" id="corner-tl"></div>
+								<div class="corner" id="corner-tr"></div>
+								<h3 style="margin-bottom: 20px">What I Do?</h3>
+								<p>
+									I am a highly motivated student in my last semester seeking
+									opportunities in the software development field to build on my
+									knowledge and experience. <br /><br />
+									I am very passionate and curious when it comes to programming
+									and therefore, I will make sure to perform at the highest
+									level to benefit the workplace and the people around me.
+								</p>
+								<div class="corner" id="corner-bl"></div>
+								<div class="corner" id="corner-br"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="s2">
+			<div class="main-container">
+				<div class="about-wrapper">
+					<div class="about-me">
+						<h4 style="margin-bottom: 20px">More about me</h4>
+						<p style="line-height: 25px">
+							I am currently attending the University of Ottawa finishing a
+							double degree program for a BASc in Mechanical Engineering and a
+							BSc in Computing Technology. <br />Throughout my learning journey,
+							I developed more passion towards my computing degree and decided
+							to follow a career path that will grow my programming skills and
+							make me a better developer
+						</p>
+
+						<hr id="aboutme-hr" />
+						<h4 style="margin-bottom: 10px">Experience</h4>
+						<p>
+							I worked as a part time employee on several occasions while
+							attending university. These experiences helped develop my
+							communication skills and customer service ability. You can read
+							more about it on my
+							<a target="_blank" href="./documents/Udemy-Certificate1.pdf"
+								>Resume</a
+							>
+						</p>
+						<hr id="aboutme-hr" />
+						<h4 style="margin-bottom: 15px">Technical / Programming skills</h4>
+						<p>
+							I have worked on many programming and development projects during
+							my studying period. This helped me gain experience in multiple
+							programming languages, frameworks, and tools.<br /><br />
+						</p>
+					</div>
+					<div class="social-links">
+						<div class="skillsWrapper">
+							<div class="skillsTop">
+								<h5 style="text-align: center">Web Development</h5>
+							</div>
+							<div class="skillsBottom">
+								<p>
+									HTML/CSS: Create and style responsive static web pages + use
+									CSS frameworks Bootstrap & Tailwind. <br /><br />
+									JAVASCRIPT: Add dynamic and interactive features to web pages,
+									manipulate HTML DOM for complex actions, and validation of
+									data. Also used JQuery library for more effecient
+									programming.<br /><br />
+									REACT JS: Used react library to build big web applications
+									with react componenets and several libraries such as
+									react-router, redux, context API, axios & more. <br /><br />
+									NODE JS: Used NODE JS runtime with EXPRESS JS framework to
+									build backend REST API with routing and connect with
+									databases.
+								</p>
+							</div>
+							<div class="skillsTop">
+								<h5 style="text-align: center">Database Managment</h5>
+							</div>
+							<div class="skillsBottom">
+								<p>
+									MongoDB: used NoSQL database to store data and mongoose
+									library to manage and query the data for use.<br /><br />
+									PostgreSQL/MySQL: implement relational schemas to store data
+									and use SQL to perform queries on schema data.
+								</p>
+							</div>
+							<div class="skillsTop">
+								<h5 style="text-align: center">Programming Languages</h5>
+							</div>
+							<div class="skillsBottom">
+								<p>
+									JAVASCRIPT: <br /><br />
+									JAVA: <br /><br />
+									PYTHON: <br /><br />
+									C/C++: <br /><br />
+									GO:<br /><br />
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="s1" id="projects">
+			<div class="main-container">
+				<h2 style="text-align: center; padding-top: 30px; margin-bottom: 40px">
+					My Projects
+				</h2>
+				<div class="project-section">
+					<h4 style="margin-bottom: 23px">FullStack React Web Applications</h4>
+					<p style="max-width: 800px; font-size: 17px">
+						The fullstack web applications below are implemented using the React
+						javascript framework for the client side, Node JS runtime and
+						Express JS framework for the server side (REST API), and MongoDB for
+						database managment.
+					</p>
+				</div>
+				<div class="post-wrapper">
+					<div class="post">
+						<div class="imgWrapper">
+							<img src="/images/project1.png" alt="" class="projectImg" />
+							<h4 style="padding: 15px; color: black">E-commerce Shop</h4>
+							<ul id="tools-used">
+								<li><i class="fa-brands fa-html5"></i></li>
+								<li><i class="fa-brands fa-css3-alt"></i></li>
+								<li><i class="fa-brands fa-js"></i></li>
+								<li><i class="fa-brands fa-react"></i></li>
+								<li><i class="fa-brands fa-node-js"></i></li>
+								<li><i class="fa-brands fa-bootstrap"></i></li>
+							</ul>
+						</div>
+						<div class="descriptionWrapper">
+							<div class="descriptionTitleWrapper">
+								<h4 class="descriptionTitle">Details</h4>
+								<span><i class="fa-solid fa-angle-up"></i></span>
+							</div>
+							<p class="projectDescription">
+								An E-commerce shop web application that allows the user to
+								create an account, sign in, browse products, make orders, write
+								reviews, make payments using Paypal APi and many more
+								features.<br /><br />
+								Technology used : React JS, Node JS, Express JS, MongoDB, JSON
+								Web Tokens, Redux, Bootstrap, axios & more.
+							</p>
+							<a
+								class="projectLink"
+								target="_blank"
+								href="https://github.com/Ali-Farhoud/Ecommerce-APP-PROJECT.git"
+								><i class="fa-solid fa-angle-right"></i> Read More</a
+							>
+						</div>
+					</div>
+					<div class="post">
+						<div class="imgWrapper">
+							<img src="/images/project2.png" alt="" class="projectImg" />
+							<h4 style="padding: 15px; color: black">
+								SocialMedia Application - Facebook Clone
+							</h4>
+							<ul id="tools-used">
+								<li><i class="fa-brands fa-html5"></i></li>
+								<li><i class="fa-brands fa-css3-alt"></i></li>
+								<li><i class="fa-brands fa-js"></i></li>
+								<li><i class="fa-brands fa-react"></i></li>
+								<li><i class="fa-brands fa-node-js"></i></li>
+							</ul>
+						</div>
+						<div class="descriptionWrapper">
+							<div class="descriptionTitleWrapper">
+								<h4 class="descriptionTitle">Details</h4>
+								<span><i class="fa-solid fa-angle-up"></i></span>
+							</div>
+							<p class="projectDescription">
+								Social media web application that allows the user to create an
+								account, sign in, search for other users with an account, view
+								other users' profile ,follow and unfollow users, create posts,
+								view followings' posts, like and dislike posts, chat with other
+								users in real time.
+								<br /><br />
+								Technology used: React JS, Node JS, Express JS, MongoDB,
+								Redux,axios, Socket.io
+							</p>
+							<a
+								class="projectLink"
+								target="_blank"
+								href="https://github.com/Ali-Farhoud/SocialMedia-Application.git"
+								><i class="fa-solid fa-angle-right"></i> Read More</a
+							>
+						</div>
+					</div>
+					<div class="post">
+						<div class="imgWrapper">
+							<img src="/images/project3.png" alt="" class="projectImg" />
+							<h4 style="padding: 15px; color: black">
+								E-commerce Shop - Amazon Clone
+							</h4>
+							<ul id="tools-used">
+								<li><i class="fa-brands fa-html5"></i></li>
+								<li><i class="fa-brands fa-css3-alt"></i></li>
+								<li><i class="fa-brands fa-js"></i></li>
+								<li><i class="fa-brands fa-react"></i></li>
+							</ul>
+						</div>
+						<div class="descriptionWrapper">
+							<div class="descriptionTitleWrapper">
+								<h4 class="descriptionTitle">Details</h4>
+								<span><i class="fa-solid fa-angle-up"></i></span>
+							</div>
+							<p class="projectDescription">
+								An E-commerce web platform that allows the user to create an
+								account, sign in, browse products, make orders, and make
+								payments using Stripe <br /><br />
+								Technology used : React JS, Firebase, Context API, axios & more.
+							</p>
+							<a
+								class="projectLink"
+								target="_blank"
+								href="https://github.com/Ali-Farhoud/Ecommerce-App-amazon-clone.git"
+								><i class="fa-solid fa-angle-right"></i> More details</a
+							>
+						</div>
+					</div>
+				</div>
+
+				<div class="project-section">
+					<h4 style="margin-bottom: 23px">Dynamic FrontEnd Web Applications</h4>
+					<p style="max-width: 800px; font-size: 17px">
+						The web applications below make use of javascript DOM manipulation
+						to display dynamic events. Some use the FETCH API to make HTTP
+						requestes to third party API's.
+					</p>
+				</div>
+				<div class="post-wrapper">
+					<div class="post">
+						<div class="imgWrapper">
+							<img src="/images/project4.png" alt="" class="projectImg" />
+							<h4 style="padding: 15px; color: black">
+								Task Tracker/Reminders
+							</h4>
+							<ul id="tools-used">
+								<li><i class="fa-brands fa-html5"></i></li>
+
+								<li><i class="fa-brands fa-js"></i></li>
+								<li><i class="fa-brands fa-react"></i></li>
+
+								<li><i class="fa-brands fa-bootstrap"></i></li>
+							</ul>
+						</div>
+						<div class="descriptionWrapper">
+							<div class="descriptionTitleWrapper">
+								<h4 class="descriptionTitle">Details</h4>
+								<span><i class="fa-solid fa-angle-up"></i></span>
+							</div>
+							<p class="projectDescription">
+								Small react application that allows the user to keep track of
+								tasks and their completion status, add new tasks, and delete the
+								task from display.
+								<br /><br />
+								Technology Used: HTML, Javascript, React JS, Bootstrap,
+							</p>
+							<a
+								class="projectLink"
+								target="_blank"
+								href="https://github.com/Ali-Farhoud/react-task-tracker.git"
+								><i class="fa-solid fa-angle-right"></i> Read More</a
+							>
+						</div>
+					</div>
+					<div class="post">
+						<div class="imgWrapper">
+							<img src="/images/project5.png" alt="" class="projectImg" />
+							<h4 style="padding: 15px; color: black">
+								Random Number Facts API
+							</h4>
+							<ul id="tools-used">
+								<li><i class="fa-brands fa-html5"></i></li>
+
+								<li><i class="fa-brands fa-js"></i></li>
+
+								<li><i class="fa-brands fa-bootstrap"></i></li>
+							</ul>
+						</div>
+						<div class="descriptionWrapper">
+							<div class="descriptionTitleWrapper">
+								<h4 class="descriptionTitle">Details</h4>
+								<span><i class="fa-solid fa-angle-up"></i></span>
+							</div>
+							<p class="projectDescription">
+								A simple web application that prompts the user to type in any
+								number and then displays a random fact about that number using a
+								third party API
+								<br /><br />
+								Technology used: HTML, Javascript, Bootstrap, FETCH API
+							</p>
+							<a
+								class="projectLink"
+								target="_blank"
+								href="https://github.com/Ali-Farhoud/NumberFacts.git"
+								><i class="fa-solid fa-angle-right"></i> Read More</a
+							>
+						</div>
+					</div>
+					<div class="post">
+						<div class="imgWrapper">
+							<img src="/images/project6.png" alt="" class="projectImg" />
+							<h4 style="padding: 15px; color: black">Text To Speech App</h4>
+							<ul id="tools-used">
+								<li><i class="fa-brands fa-html5"></i></li>
+
+								<li><i class="fa-brands fa-js"></i></li>
+
+								<li><i class="fa-brands fa-bootstrap"></i></li>
+							</ul>
+						</div>
+						<div class="descriptionWrapper">
+							<div class="descriptionTitleWrapper">
+								<h4 class="descriptionTitle">Details</h4>
+								<span><i class="fa-solid fa-angle-up"></i></span>
+							</div>
+							<p class="projectDescription">
+								Web application that asks the user to type anything into a text
+								field, configure sound options, and choose a voice to convert
+								the typed text to speech using javascript speech synthesis
+								<br /><br />
+								Technology used: HTML, Javascript, Bootstrap, Web Speech API
+							</p>
+							<a
+								class="projectLink"
+								target="_blank"
+								href="https://github.com/Ali-Farhoud/TextToSpeech.git"
+								><i class="fa-solid fa-angle-right"></i> Read More</a
+							>
+						</div>
+					</div>
+					<div class="post">
+						<div class="imgWrapper">
+							<img src="/images/project7.png" alt="" class="projectImg" />
+							<h4 style="padding: 15px; color: black">Book List Inventory</h4>
+							<ul id="tools-used">
+								<li><i class="fa-brands fa-html5"></i></li>
+
+								<li><i class="fa-brands fa-js"></i></li>
+
+								<li><i class="fa-brands fa-bootstrap"></i></li>
+							</ul>
+						</div>
+						<div class="descriptionWrapper">
+							<div class="descriptionTitleWrapper">
+								<h4 class="descriptionTitle">Details</h4>
+								<span><i class="fa-solid fa-angle-up"></i></span>
+							</div>
+							<p class="projectDescription">
+								Dynamic web application that allows the user to keep track of a
+								list of books, add a book to the list, delete book from list,
+								and recieve confirmation messages.
+								<br /><br />
+								Technology used: HTML, Javascript, Bootstrap
+							</p>
+							<a
+								class="projectLink"
+								target="_blank"
+								href="https://github.com/Ali-Farhoud/BookListApp.git"
+								><i class="fa-solid fa-angle-right"></i> More details</a
+							>
+						</div>
+					</div>
+					<div class="post">
+						<div class="imgWrapper">
+							<img src="/images/project8.png" alt="" class="projectImg" />
+							<h4 style="padding: 15px; color: black">
+								Filterable Contatcs List
+							</h4>
+							<ul id="tools-used">
+								<li><i class="fa-brands fa-html5"></i></li>
+
+								<li><i class="fa-brands fa-js"></i></li>
+
+								<li><i class="fa-brands fa-bootstrap"></i></li>
+							</ul>
+						</div>
+						<div class="descriptionWrapper">
+							<div class="descriptionTitleWrapper">
+								<h4 class="descriptionTitle">Details</h4>
+								<span><i class="fa-solid fa-angle-up"></i></span>
+							</div>
+							<p class="projectDescription">
+								Dynamic web application that displays the users' contact list
+								and allows the user to type in the search bar to filter out
+								names
+								<br /><br />
+								Technology used: HTML, Javascript, Bootstrap
+							</p>
+							<a
+								class="projectLink"
+								target="_blank"
+								href="https://github.com/Ali-Farhoud/Contacts-List.git"
+								><i class="fa-solid fa-angle-right"></i> More details</a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="project-section">
+					<h4>Java Applictions</h4>
+				</div>
+				<div class="post-wrapper"></div>
+				<div class="project-section">
+					<h4>Python Applications</h4>
+				</div>
+				<div class="post-wrapper"></div>
+			</div>
+		</section>
+		<section class="s2">
+			<div class="main-container">
+				<div class="contactSectionWrapper">
+					<h2 style="margin-bottom: 30px">Contact Me</h2>
+					<p style="font-size: 22px">
+						Send me an email by filling the form that is displayed when you
+						click on the <a href="#top">Contact</a> button on the top of the
+						page. You will also find my contact information and my social media
+						links
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="s1">
+			<div class="main-container">
+				<div class="footerWrapper">
+					<p>Copyright &copy; 2022 Ali Farhoud. All Rights Reserved</p>
+					<p><a href="#top">Back to top</a></p>
+				</div>
+			</div>
+		</section>
+		<div class="modal">
+			<div class="modal-wrapper">
+				<div class="modal-nav">
+					<span id="close-modal">&times;</span>
+				</div>
+
+				<div class="modal-content">
+					<div class="modal-left">
+						<h2>Get In Touch!</h2>
+						<p>
+							Send me message regarding any inquiry or oppurtunity and I'll get
+							back to you as soon as possible
+						</p>
+						<ul class="contact-list">
+							<li>
+								<span
+									><i class="fa-solid fa-envelope"></i>
+									alifarhoud613@gmail.com</span
+								>
+							</li>
+							<li>
+								<span><i class="fa-solid fa-phone"></i> (613)404-6292</span>
+							</li>
+						</ul>
+						<h5 style="margin-top: 50px; margin-bottom: 15px">
+							Connect with me on social media
+						</h5>
+						<ul class="media-list">
+							<li>
+								<a
+									target="_blank"
+									href="http://www.linkedin.com/in/ali-farhoud-02a1ba175"
+									><i class="fa-brands fa-linkedin"></i
+								></a>
+							</li>
+							<li>
+								<a target="_blank" href="https://github.com/Ali-Farhoud"
+									><i class="fa-brands fa-github"></i
+								></a>
+							</li>
+							<li>
+								<a
+									target="_blank"
+									href="https://www.facebook.com/ali.farhoud.1/"
+									><i class="fa-brands fa-facebook"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="modal-right">
+						<form action="POST" data-netlify="true" id="contact-form">
+							<p>* You can send a message to my email from here</p>
+							<label>Name</label>
+							<input type="text" class="input-field" name="name" />
+
+							<label>Subject</label>
+							<input type="text" class="input-field" name="subject" />
+
+							<label>Email</label>
+							<input type="text" class="input-field" name="email" />
+
+							<label>Message</label>
+							<textarea class="input-field" name="message"></textarea>
+							<div data-netlify-recaptcha="true"></div>
+							<input type="submit" id="submit-btn" value="send" />
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
